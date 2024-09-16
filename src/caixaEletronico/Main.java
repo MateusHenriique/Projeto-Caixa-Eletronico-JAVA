@@ -42,6 +42,7 @@ public class Main extends Operacoes {
 
             while (operacao != 4) {
 
+                System.out.print("\033c");
                 System.out.println("-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-");
                 System.out.printf("""
                 Nome do cliente: %s
